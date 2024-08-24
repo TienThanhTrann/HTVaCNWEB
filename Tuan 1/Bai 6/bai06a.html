@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        table{
+            width: 1000px;
+            /* border: 5px solid coral; */
+            border-collapse: collapse;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        tr td{
+            /* border: 2px solid gray; */
+            width: 150;
+        }
+        
+        div{
+            width: 1200px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td colspan="3" align="center"><img src="../Tuan1_TaiLieu/Bai6/chu.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center"><h1><b>Form</b></h1></td>
+            
+            </tr>
+            <tr>
+                <td colspan="3" align="center"><h1>Jackson Electronics</h1></td>
+            </tr>
+            <tr>
+                <td>First name:</td>
+                <td> <input type="text" name="Firstname" id="Firstname"></td>
+                <td>Last name: <input type="text" name="Lastname" id="Lastname"></td>
+            </tr>
+            <tr>
+                <td>Address 1:</td>
+                <td colspan="2"><input type="text" name="address" id="address"></td>
+                
+            </tr>
+            <tr>
+                <td>Address 2:</td>
+                <td colspan="2"><input type="text" name="address2" id="address2"></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><input type="text" name="city" id="city"></td>
+                <td>Sate: <input type="text" name="state" id="state">Zip: <input type="text" name="zip" id="zip"></td>
+                
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td colspan="2"><input type="text" name="country" id="country"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><hr></td>
+            </tr>
+            <tr>
+                <td>Product</td>
+                <td colspan="2"><select name="Product" id="Product">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                </select>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>Date Purchased</td>
+                <td colspan="2"><input type="text" name="dp" id="dp"></td>
+                
+            </tr>
+            <tr>
+                <td>Serial</td>
+                <td colspan="2"><input type="text" name="ser" id="ser"></td>
+                
+            </tr>
+            <tr>
+                <td>Used for:</td>
+                <td>
+                    <input type="radio" name="home" id="home">Home<br>
+                    <input type="radio" name="business" id="business">Business<br>
+                    <input type="radio" name="goverment" id="goverment">Goverment <br>
+                </td>
+
+                <td>
+                    <input type="radio" name="edu" id="edu">Educational Instituation<br>
+                    <input type="radio" name="other" id="other">Other<br>
+                   
+                </td>
+            </tr>
+            <tr>
+                <td>System</td>
+                <td><input type="checkbox" name="win" id="win">Window <br>
+                    <input type="checkbox" name="mac" id="mac">MacOs <br>
+                </td>
+                <td>
+                    <input type="checkbox" name="unix" id="unix">Unix <br>
+                    <input type="checkbox" name="other" id="other">Other <br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><hr></td>
+            </tr>
+            <tr>
+                <td>Commnent?</td>
+                <td colspan="2"><textarea name="cmt" id="cmt" cols="40" rows="7"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center"><input type="button" value="Register">
+                    <input type="reset" value="Reset">
+                </td>
+
+            </tr>
+    </table>
+    </div>
+</body>
+</html>
